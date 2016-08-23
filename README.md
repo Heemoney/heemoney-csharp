@@ -5,6 +5,6 @@
 #### 支付 ####
     PayResponse payResponse=Heemoney.Pay(PayRequest payRequest);
 #### 查询 ####
-    QueryResponse queryResponse=Heemoney.Pay(QueryRequest queryRequest);
+    QueryResponse queryResponse=Heemoney.Query(QueryRequest queryRequest);
 #### 退款 ####
-    RefundResponse refundResponse=Heemoney.Pay(RefundRequest refundRequest);
+    RefundResponse refundResponse=Heemoney.Refund(RefundRequest refundRequest);
